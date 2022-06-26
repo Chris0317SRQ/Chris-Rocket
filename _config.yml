@@ -10,16 +10,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
-    - text: About
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    - text: Machine Learning
+      url: /ML
+    - text: Fundamentals
+      url: /Fundamentals
+    - text: Quantum
+      url: /Q
+    - text: GNC and Algorithms
+      url : /GNCA
+    - text: Study Plan and Record
+      url : /SPaR
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -34,28 +34,41 @@ typewrite-text: devlopr is a jekyll framework built for developers. You can edit
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
-author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
-
+author_experiences:
+            - Age: 16
+              Achievement: FRC (Taiwan 2nd)
+              holder: First Robotics(U.S.)
+              Characteristic: Algorithm of Industrial Robot
+            - Age: 17
+              Achievement: Kibo RPC (Taiwan 2nd)
+              holder: NASA, JAXA
+              Characteristic: Programming the robot that works in the International Space Station(ISS)
+            - Age: 17
+              Achievement: Space Engineer (Intern)
+              Project: NSPO-YuSat 1
+              Characteristic: Satellite Engineering
+            - Age: 18
+              Achievement: QCHack Quantum Reserch (World 3rd)
+              Research: Quantum walk with phase kickback
+              holder: Yale University
+              Characteristic: Quantum Algorithm
+            - Age: 18
+              Project: ADCS Engineer(Intern)
+              holder: NSPO-YuSat 2
+              Characteristic: Attitude Determination and Control System (ADCS)
+            - Age: 19
+              Achievement: ARRC (Project Student)
+              holder: NYCUME
+              Characteristic: Rocket Engineering
+              
 # Education
 author_education_details:
               - college_logo: mit.png
-                college_name: MIT
+                college_name: NCKU
                 college_url: https://mit.org
                 college_degree: CS Engineer
                 description: Bachelor of Technology
-                visibility: true
+                visibility: false
 
 # Projects
 author_project_details:
@@ -71,16 +84,8 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  Chris0317SRQ
+facebook_username: Chris
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -95,7 +100,7 @@ mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50b
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: hyuchen869@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
