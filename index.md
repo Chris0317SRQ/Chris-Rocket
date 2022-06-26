@@ -1,6 +1,3 @@
----
-layout: home
----
 ### Introduction
 
 |Age|Achievement|holder|Characteristic|
