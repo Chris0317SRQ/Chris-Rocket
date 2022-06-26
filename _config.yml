@@ -2,7 +2,7 @@ title: devlopr
 subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- Hi. I am Chris
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
-url: "https://chris0317srq.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://chris0317srq.github.io/Chris-Rocket" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 # Navigation
